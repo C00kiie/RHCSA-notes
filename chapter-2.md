@@ -98,13 +98,17 @@ and each parent has a child and what not
 
 ---
 <h3> Memory Based Examples </h3>
- - `/dev`: is used to store device nodes and physical/virtual devices. It's important to note that devices are either block (buffer) devices or character (single characters) devices.
+ 
+ - ``/dev`` : is used to store device nodes and physical/virtual devices. It's important to note that devices are either block (buffer) devices or character    (single characters) devices.
+ 
    Block devices are accessed in a parallel method while the other is accessed in a serial stream of bits
- - `/proc`: the procs (processes file system) maintaines information about every process and the current state of the kernel. The information is stored in a files-like hierarchy of subdirectories
+ - ``/proc`` : the procs (processes file system) maintaines information about every process and the current state of the kernel. The information is stored in a files-like hierarchy of subdirectories
    that contain thousands of zero-length pseduo files. These files point to relevant data and maintained by the kernel in the memory. You can think of `procfs` as just an interface to the in-memory
    information which provides an easy interaction with the kernel maintained information
- - `/run`: This virtual system is a repoistory of data for any process that wishes to store run-time data. It's erased at shutdown 
- - `/sys`: Provides information about hardware devices, drivers, and some kernel features is stored and maintained. The difference between sys and dev, is that sys handles the creation and deletion 
+ 
+ - ``/run`` : This virtual system is a repoistory of data for any process that wishes to store run-time data. It's erased at shutdown 
+ 
+ - ``/sys`` : Provides information about hardware devices, drivers, and some kernel features is stored and maintained. The difference between sys and dev, is that sys handles the creation and deletion 
     and status of said device inside /dev, while the other provides an interface to deal with said devices. Most files inside /sys are symbolic linkes and regular files too. Most files in /dev are 
 
 
