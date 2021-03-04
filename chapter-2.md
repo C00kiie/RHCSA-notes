@@ -90,11 +90,11 @@ and each parent has a child and what not
   it also includes `/usr/src` which stores source code for various software if any
 
 - /var this includes plenty of important important parts of linux 
- - `/var/log`
- - `/var/www`
- - `/var/tmp`: a temp directory that stores files for a longer period than `/tmp`. The first stores it for a period of 30 days if not accessed, while the latter only stores files for 10 days.
- - `/var/opt`: the right convenetion to store log files of software located at /opt
- - `/var/spool`: Directories that hold print jobs, cron jobs, mail messages, and other
+   -`/var/log`
+   - `/var/www`
+   - `/var/tmp`: a temp directory that stores files for a longer period than `/tmp`. The first stores it for a period of 30 days if not accessed, while the latter only stores files for 10 days.
+    - `/var/opt`: the right convenetion to store log files of software located at /opt
+    - `/var/spool`: Directories that hold print jobs, cron jobs, mail messages, and other
     queued items before being sent out to their intended destinations are located here
 
 ---
