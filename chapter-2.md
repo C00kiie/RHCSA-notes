@@ -15,57 +15,6 @@ and each parent has a child and what not
 
 **Here are the important things to rememeber about files strucuture**:
 
-```bash
-/ root 
-|
--> /dev
-|| --> /block
-   --> /pts
-|
--> /etc
-|| --> /skel
-   --> /systemd
-   --> /opt
-   --> /sysconfig
-   --> /cron.d
-   --> /lvm
-|
-|
--> /sys
-|
-|| --> /kernel
-   --> /fs
-|
--> /home
-|
--> /opt
-|
--> /root
-|
--> /tmp
-|
--> /usr
-|| --> /lib
-   --> /lib64
-   --> /share
-   --> /sbin
-   --> /bin
-   --> /local
-|
--> /boot
-|| --> /grub2
-|
--> /var
-||
- --> /log
- --> /mail
- --> /tmp
- --> /spool
- --> /opt
-```
-
-**Here is a visual implementation**: 
-
 ![linux-files](img/chapter_2/linux-files-tree.png?raw=true)
 
 
