@@ -66,13 +66,13 @@ and each parent has a child and what not
 
 **Here is a visual implementation**: 
 
-[linux-files](img/chapter_2/linux-files-tree.png)
+![linux-files](img/chapter_2/linux-files-tree.png?raw=true)
 
 
 - There are three kinds of files:
- - disk based: images, text files .. etc 
- - network based: disk based files but somewhere not in our physical disks
- - memory based: much more like /proc and its contents, it's all in your mind
+   - disk based: images, text files .. etc 
+   - network based: disk based files but somewhere not in our physical disks
+   - memory based: much more like /proc and its contents, it's all in your mind
 
 ---
 <h3> Disk Based Examples </h3>
