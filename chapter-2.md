@@ -65,7 +65,8 @@ and each parent has a child and what not
 ```
 
 **Here is a visual implementation**: 
-[linux-files!](img/chapter_2/linux-files-tree.png)
+
+[linux-files](img/chapter_2/linux-files-tree.png)
 
 
 - There are three kinds of files:
@@ -74,7 +75,7 @@ and each parent has a child and what not
  - memory based: much more like /proc and its contents, it's all in your mind
 
 ---
-<h3> Disk Based Examples <h3>
+<h3> Disk Based Examples </h3>
 
 - / (root) 
 - /etc
