@@ -1,4 +1,4 @@
-<h1> Chapter CHAPTER_NUM </h1>
+<h1> Chapter 3 </h1>
 
 Objectives: 
 - Common types of file in Linux
