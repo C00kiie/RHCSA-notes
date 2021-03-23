@@ -25,6 +25,8 @@ Permissions in linux work in octal system and here is the full list
 and only 6 combinations exist to get all states ( 3 checkboxes with
 2 possiblities)
 
+
+```
 A B C T
 0 0 1 1 
 0 1 1 3
@@ -32,24 +34,37 @@ A B C T
 1 0 0 4 
 1 1 1 7
 1 0 1 5
+```
 
 Which can be summarized as:
+
 0 - none of the permissions
+
 1 - execute only
+
 2 - write only
+
 3 - write and execute
+
 4 - read only
+
 5 - read and execute
+
 6 - read and write
+
 7 - read and write and execute
 
 ###
 
 <h2> here's a good umask for you </h2>
+
 - A. 022 anyone can only read on the file (766 - 022 = 744)
-- B. 077 no one can read or see the file existence (700) as 
+
+- B. 077 no one can read or see the file existence (700)  
+
 - C. 002 anyone in the same group can as much as the original user with the
   said file, except for foreign users they can only read
+
 ##########
 
 
