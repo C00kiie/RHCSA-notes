@@ -158,4 +158,31 @@ Here are some useful tips to using `journalctl`
   it'll automatically start to store messages there 
 
 <h3> Tuned Service </h3>
+Tuned service (/etc/tuned) is a nice service to adjust between power consumption and maximum performance.
+The way it gives you multiple profiles makes it similar to many other operations like macOS and Windows-X
+In which they have multiple plans to run everything.
+
+- RHEL8 comes with 8 predefined profiles each configured to suit a certain need
+	- Desktop
+	- Latency-performance
+	- Network-Latency
+	- Network-throughput
+	- Virtual-guest
+	- Virtual-host
+	- Powersave
+	- Balanced
+	- Throughput-performance
+Each one improves a certain aspect of the system and some totally nerve down the whole system like `powersave`
+- **note**: predefined profiles are located in /usr/lib/tuned directory
+- **note**: tuned service comes with a management tool called tuned-adm.
+
+<h2> Chapter 12: Tuned-adm </h2>
+
+tuned-adm requires super-user privileges, keept that in mind
+
+
+- `tuned-adm list` lists stuff
+- `tuned-adm profile $profile-name` switches active profile to x profile
+- `tunned-adm off` / `tuned-adm on` are pretty self-explanatory too
+- `tuned-adm recommend` recommends a profile for you easily, too
 
